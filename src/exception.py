@@ -1,4 +1,5 @@
 import sys
+import src.logger as logger
 import logging
 
 
@@ -7,7 +8,7 @@ def error_message_detail(error, error_detail: sys):
     file_name = tb.tb_frame.f_code.co_filename
     line_number = tb.tb_lineno
 
-    error_message = f"Error occurred in : {error} \nFile: {file_name} \nLine: {line_number}"
+    error_message = f"Error: {error} \nFile: {file_name} \nLine: {line_number}"
     return error_message
 
 
@@ -18,4 +19,3 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-
