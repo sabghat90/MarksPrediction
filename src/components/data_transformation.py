@@ -17,7 +17,7 @@ from src.utils import save_obj
 
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path = os.path.join('artifacts', 'preprocessor_obj.pkl')
+    preprocessor_obj_file_path = os.path.join('../../artifacts', 'preprocessor_obj.pkl')
 
 
 def get_data_transformer_obj():
