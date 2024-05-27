@@ -60,8 +60,8 @@ To install and run the project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/student-performance-prediction.git
-    cd student-performance-prediction
+    git clone https://github.com/sabghat90/Score-Prediction.git
+    cd Score-Predictioin
     ```
 
 2. Create and activate a virtual environment:
@@ -82,7 +82,7 @@ To install and run the project locally, follow these steps:
 
 ## Usage
 
-To use the web application, navigate to `http://127.0.0.1:5000/` in your web browser. Fill in the required fields and click "Predict" to see the prediction results.
+To use the web application, navigate to `http://127.0.0.1:8080/` in your web browser. Fill in the required fields and click "Predict" to see the prediction results.
 
 ## Contributing
 
